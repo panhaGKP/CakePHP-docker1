@@ -13,7 +13,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: dbTest_docker
     ports:
-      - 3307:3306
+      - 3376:3306
 
   phpmyadmin:
     image: phpmyadmin:latest
